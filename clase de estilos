@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TIPOS DE ESTILOS</title>
+	<style >
+		#p1{
+			color: blue;
+		}
+		.p2{
+			color: cyan;
+		}
+		.btn{
+			color: black; /*#000*/
+			border-radius: 15px;
+			padding: 14px;
+			cursor: pointer;
+			border: none;
+			/*opacity: 0.6;*/
+		}
+		.btn1{
+			color: white;
+			background-color: red;
+		}
+		.btn2{
+			background-color: #3498bd;
+		}
+		.btn3{
+			background-color: #d4ac0d;
+		}
+		.btn4{
+			background-color: #bb8fce;
+		}
+		.btn5{
+			background-color: #839192;
+		}
+		.btn6{
+			background-color: #c0392b;
+		}
+		.btn7{
+			background-color: #7fb3d5;
+		}
+		.btn8{
+			background-color: #7b7d7d;
+		}
+		section{
+			color: red;
+		}
+		section p{
+			color: #000;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 align="center">Tipos de estilos</h1>
+	<hr>
+	<h1 id="p1">PRIMERO</h1>
+	<h1 class="p2">SEGUNDO</h1>
+	<h1 style="color: red;">TERCERO</h1>
+	<hr>
+	<button class="btn btn2">Inicio</button>
+	<button class="btn btn1">Advertencia</button>
+	<button class="btn btn3">Carrera</button>
+	<button class="btn btn4">Docente</button>
+	<button class="btn btn5">Otros</button>
+	<button class="btn btn6">Academico</button>
+	<button class="btn btn7">Direccion</button>
+	<button class="btn btn8">Biblioteca</button>
+	<hr>
+	<section>
+		<p>Texto introductorio</p>
+		<br>
+		<font>A CSS</font>
+		<p>Texto concluyente</p>
+	</section>
+
+</body>
+</html>
